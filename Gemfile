@@ -12,6 +12,7 @@ gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'require_all'
 
 
+
 group :development do
   gem "capybara"
   gem "pry"
