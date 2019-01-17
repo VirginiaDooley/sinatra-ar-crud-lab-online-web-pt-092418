@@ -5,5 +5,4 @@ class CreateArticles < ActiveRecord::Migration[5.1]
       t.string :content
     end
   end
-
 end

@@ -6,8 +6,8 @@
   </head>
   	<body>
 
-         <h1><%=@article.title %></h1>
-         <p><%=@article.content %></p>
+         <h1><%= @article.title %></h1>
+         <p><%= @article.content %></p>
 
         <!-- delete -->
         <form method="post" action="/articles/<%= @article.id %>">
